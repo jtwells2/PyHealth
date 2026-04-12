@@ -1,0 +1,13 @@
+version: "1.0.0"
+
+tables:
+  ptbxl:
+    file_path: "ptbxl-pyhealth.csv"
+    patient_id: "patient_id"
+    timestamp: null
+    attributes:
+      - record_id
+      - signal_file
+      - age
+      - sex
+      - scp_codes
