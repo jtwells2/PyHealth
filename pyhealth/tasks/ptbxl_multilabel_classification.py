@@ -346,9 +346,9 @@ class PTBXLMultilabelClassification(BaseTask):
 
             # ---- 3. Parse SNOMED-CT codes --------------------------------
             # Column "ptbxl/dx_codes" → attribute "dx_codes"; values are
-            # dot-joined by load_data() via ".".join(dx), so split on ".".
+            # comma-joined by load_data() via ",".join(dx), so split on ",".
             raw_codes: str = str(getattr(event, "dx_codes", "") or "")
-            codes = [c.strip() for c in raw_codes.split(".") if c.strip()]
+            codes = [c.strip() for c in raw_codes.split(",") if c.strip()]
 
             # ---- 4. Map to chosen label space ---------------------------
             if self.label_type == "superdiagnostic":
