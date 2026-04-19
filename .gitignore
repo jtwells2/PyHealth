@@ -140,3 +140,12 @@ data/physionet.org/
 
 # Model weight files (large binaries, distributed separately)
 weightfiles/
+# CS-598 project data (downloaded separately — not library code)
+cs598_project/ptbxl_database.csv
+cs598_project/scp_statements.csv
+cs598_project/ptbxl-records-pyhealth.csv
+cs598_project/ptbxl_v103_pyhealth.yaml
+cs598_project/WFDB
+cs598_project/output/
+cs598_project/**/*.pkl
+cs598_project/**/*.ckpt
