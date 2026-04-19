@@ -188,6 +188,8 @@ API Reference
     models/pyhealth.models.JambaEHR
     models/pyhealth.models.ContraWR
     models/pyhealth.models.SparcNet
+    models/pyhealth.models.BiLSTMECG
+    models/pyhealth.models.SEResNetECG
     models/pyhealth.models.StageNet
     models/pyhealth.models.StageAttentionNet
     models/pyhealth.models.AdaCare
