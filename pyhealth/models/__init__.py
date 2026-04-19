@@ -44,3 +44,5 @@ from .text_embedding import TextEmbedding
 from .sdoh import SdohClassifier
 from .medlink import MedLink
 from .unified_embedding import UnifiedMultimodalEmbeddingModel, SinusoidalTimeEmbedding
+from .bilstm_ecg import BiLSTMECG
+from .se_resnet_ecg import SEResNetECG, SEBlock1D, Bottleneck1D
